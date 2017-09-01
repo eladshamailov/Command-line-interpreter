@@ -1,4 +1,4 @@
-# command-line-interpreter
+# Command-line-interpreter
 Implementation of a shell (command-line interpreter).
 Like traditional UNIX shells, the shell program will also be a user level process , that will
 rely heavily on the operating system's services.
