@@ -33,7 +33,6 @@ void freeJobList(job** job_list);
 char* statusToStr(int status);
 
 
-/* to be implemented during the lab */
 job* initializeJob(char* cmd);
 void freeJob(job* job_to_remove);
 job* findJobByIndex(job * job_list, int idx);
