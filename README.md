@@ -21,7 +21,7 @@ The shell also has "cd" feature that allows the user to change the current worki
 I used a linked list, where each node is a struct job in order to store a list of all running/suspended jobs.
 ```
 typedef struct job{
-    char *cmd;                            /* the whole command line as typed by the user, including input/output redirection and pipes (lab 6)*/
+    char *cmd;                            /* the whole command line as typed by the user, including input/output redirection and pipes */
     int idx;				  /* index of current job (starting from 1) */
     pid_t pgid; 		          /* process group id of the job*/
     int status;                           /* status of the job */
